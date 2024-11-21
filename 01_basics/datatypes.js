@@ -33,3 +33,31 @@ console.log(typeof myFunction);
 
 // Reference(Non-Primitive)
 // Arrays,Objects,Functions
+
+
+// ******************************************************************************************************************************************
+
+// Stack(Primitive)
+
+
+let myYoutubename="vaibhavHefshinedotcom"
+
+let anothername=myYoutubename
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userone={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let usertwo=userone
+
+usertwo.email="vaibhavt@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
