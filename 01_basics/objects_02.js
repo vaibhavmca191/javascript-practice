@@ -49,13 +49,35 @@ const users = [
     }
 ]
 users[1].emai
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "110",
+    courseInstructor: "vaibhav"
+}
+// course.courseInstructor
+const {courseInstructor: instructor} = course
+// console.log(courseInstructor);
+
+console.log(instructor);
+
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "vaibhav")
+
+  
+
+
+
+
 
 
 
